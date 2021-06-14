@@ -59,7 +59,6 @@ stages:
   displayName: Deploy to the test environment
   jobs:
   - job: RunUITests
-    dependsOn: Deploy
     displayName: Run UI tests
     pool:
       vmImage: windows-2019
